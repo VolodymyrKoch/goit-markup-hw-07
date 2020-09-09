@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --logo-color: #2196f3;
+  --descript-color: #757575;
+  --addres-footer-color: rgba(255, 255, 255, 0.6);
+  --font-color: #212121;
+  --background-button: #f5f4fa;
+  --dark-background-color: #ffffff;
+  --fix: tomato;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  font-family: roboto, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+/*# sourceMappingURL=main.css.map */
