@@ -19,7 +19,7 @@
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--font-color);
+  color: $font-color;
   margin-top: 0px;
   margin-bottom: 10px;
 
@@ -30,7 +30,7 @@
     height: 120px;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--background-button);
+    background-color: $background-button;
     border-radius: 4px;
     background-size: auto;
     margin-bottom: 30px;
@@ -54,6 +54,6 @@
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
-  color: var(--descript-color);
+  color: $descript-color;
   margin: 0px;
 }

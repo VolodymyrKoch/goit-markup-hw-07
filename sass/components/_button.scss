@@ -4,8 +4,8 @@
     line-height: 1.875;
     text-align: center;
     padding: 10px 29px;
-    color: var(--dark-background-color);
-    background-color: var(--logo-color);
+    color: $dark-background-color;
+    background-color: $logo-color;
     align-items: center;
     letter-spacing: 0.06em;
     font-weight: bold;
@@ -14,8 +14,8 @@
 .hero {
   .button {
     letter-spacing: 0.06em;
-    color: var(--dark-background-color);
-    background-color: var(--logo-color);
+    color: $dark-background-color;
+    background-color: $logo-color;
     padding: 10px 32px;
     line-height: 1.875;
     font-weight: bold;
@@ -25,8 +25,8 @@
 .filter {
   .button {
     letter-spacing: 0.03em;
-    color: var(--font-color);
-    background: var(--background-button);
+    color: $font-color;
+    background: $background-button;
 
     padding: 6px 22px;
     line-height: 1.625;
@@ -48,7 +48,7 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    color: var(--dark-background-color);
-    background-color: var(--logo-color);
+    color: $dark-background-color;
+    background-color: $logo-color;
   }
 }

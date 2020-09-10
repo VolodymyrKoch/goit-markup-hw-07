@@ -14,7 +14,7 @@
   font-size: 18px;
   line-height: 1.556;
   letter-spacing: 0.03em;
-  color: var(--dark-background-color);
+  color: $dark-background-color;
   margin: 0px;
   padding: 63px 24px;
   width: 100%;
@@ -40,7 +40,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--font-color);
+  color: $font-color;
   margin-bottom: 4px;
 }
 
@@ -50,7 +50,7 @@
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: var(--descript-color);
+  color: $descript-color;
 
   margin-top: 0px;
   margin-bottom: 0px;

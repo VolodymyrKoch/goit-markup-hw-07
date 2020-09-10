@@ -25,7 +25,7 @@
   background-color: #2f303a;
 }
 .page-footer address {
-  color: var(--dark-background-color);
+  color: $dark-background-color;
   font-family: Roboto;
   letter-spacing: 0.03em;
   font-weight: normal;
@@ -37,7 +37,7 @@
 }
 .footer_link:hover,
 .footer_link:focus {
-  color: var(--logo-color);
+  color: $logo-color;
 }
 
 .join {
@@ -74,7 +74,7 @@
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  fill: var(--dark-background-color);
+  fill: $dark-background-color;
 }
 
 .item_network:not(:last-child) {

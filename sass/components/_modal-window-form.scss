@@ -35,11 +35,11 @@
 
   &:focus {
     outline: none;
-    border: 1px solid var(--logo-color);
+    border: 1px solid $logo-color;
   }
 }
 .form_imput:focus ~ .modal_form__icon {
-  fill: var(--logo-color);
+  fill: $logo-color;
 }
 .user_mesage-form {
   width: 100%;
@@ -53,7 +53,7 @@
   margin-bottom: 20px;
   &:focus {
     outline: none;
-    border: 1px solid var(--logo-color);
+    border: 1px solid $logo-color;
   }
 }
 
@@ -81,7 +81,7 @@
 }
 
 .label_check-form a {
-  color: var(--logo-color);
+  color: $logo-color;
 }
 .label_check-form {
   font-family: Roboto;
@@ -106,7 +106,7 @@
 }
 .check-form-policy:checked + .label_check-form::before {
   color: teal;
-  background-color: var(--logo-color);
+  background-color: $logo-color;
   background-image: url(../images/svg_sprite/form/icon_mark.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -122,8 +122,8 @@
   line-height: 1.875;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--dark-background-color);
-  background-color: var(--logo-color);
+  color: $dark-background-color;
+  background-color: $logo-color;
   padding: 10px 55px;
   width: 200px;
   margin: 0 auto;

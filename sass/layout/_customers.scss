@@ -16,10 +16,10 @@
 
   &:hover,
   &:focus {
-    border-color: var(--logo-color);
+    border-color: $logo-color;
 
     & .customers__icon {
-      fill: var(--logo-color);
+      fill: $logo-color;
     }
   }
 }
