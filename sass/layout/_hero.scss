@@ -26,3 +26,14 @@
   margin: auto;
   padding: 0px 15px;
 }
+
+.hero {
+  .button {
+    letter-spacing: 0.06em;
+    color: var(--dark-background-color);
+    background-color: var(--logo-color);
+    padding: 10px 32px;
+    line-height: 1.875;
+    font-weight: bold;
+  }
+}
