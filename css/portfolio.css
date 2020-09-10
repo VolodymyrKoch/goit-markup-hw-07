@@ -12,6 +12,16 @@
   overflow: hidden;
 }
 
+:root {
+  --logo-color: #2196f3;
+  --descript-color: #757575;
+  --addres-footer-color: rgba(255, 255, 255, 0.6);
+  --font-color: #212121;
+  --background-button: #f5f4fa;
+  --dark-background-color: #ffffff;
+  --fix: tomato;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -402,15 +412,5 @@ main p {
 
 .our_projects__item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-:root {
-  --logo-color: #2196f3;
-  --descript-color: #757575;
-  --addres-footer-color: rgba(255, 255, 255, 0.6);
-  --font-color: #212121;
-  --background-button: #f5f4fa;
-  --dark-background-color: #ffffff;
-  --fix: tomato;
 }
 /*# sourceMappingURL=portfolio.css.map */
