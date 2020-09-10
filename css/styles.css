@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --logo-color: #2196f3;
   --descript-color: #757575;
   --addres-footer-color: rgba(255, 255, 255, 0.6);
@@ -6,7 +6,7 @@
   --background-button: #f5f4fa;
   --dark-background-color: #ffffff;
   --fix: tomato;
-}
+} */
 /* html {
   box-sizing: border-box;
 }
@@ -49,7 +49,7 @@ img {
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid var(--fix); */
+ 
 } */
 
 /* =====header===== */
@@ -655,7 +655,6 @@ main p {
 .subscription {
   margin-left: auto;
 } */
-
 
 /* 
 .subscription input {
