@@ -473,12 +473,12 @@ main p {
   display: flex;
 }
 
-.advantages__item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .advantages__item {
   width: calc((100% - 90px) / 3);
+}
+
+.advantages__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .advantages__title {
