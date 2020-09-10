@@ -8,6 +8,7 @@ header .item + .item {
 header p {
   margin: 25px 0px;
 }
+
 header .link {
   font-family: Roboto;
   font-weight: 500;
@@ -16,38 +17,12 @@ header .link {
   letter-spacing: 0.02em;
   color: var(--font-color);
   display: block;
-
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-header .link:hover,
-header .link:focus {
-  color: var(--logo-color);
-}
 
-.logo {
-  color: var(--logo-color);
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-
-  margin-right: 93px;
-}
-.logo_Studio {
-  color: var(--font-color);
-}
-
-.current::after {
-  content: "";
-  width: 100%;
-  height: 4px;
-  background-color: var(--logo-color);
-
-  display: block;
-  margin-top: 28px;
-  margin-right: auto;
-  margin-left: auto;
+  &:hover,
+  :focus {
+    color: var(--logo-color);
+  }
 }
 
 .addres-link:not(:last-child) {
@@ -93,6 +68,16 @@ header .link:focus {
 
 nav .current {
   color: var(--logo-color);
+  &::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: var(--logo-color);
+    display: block;
+    margin-top: 28px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 .leveling {

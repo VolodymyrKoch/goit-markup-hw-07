@@ -12,7 +12,6 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--dark-background-color);
-
   margin-bottom: 30px;
 }
 .hero__bloс {
@@ -25,15 +24,4 @@
   min-height: 600px;
   margin: auto;
   padding: 0px 15px;
-}
-
-.hero {
-  .button {
-    letter-spacing: 0.06em;
-    color: var(--dark-background-color);
-    background-color: var(--logo-color);
-    padding: 10px 32px;
-    line-height: 1.875;
-    font-weight: bold;
-  }
 }

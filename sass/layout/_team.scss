@@ -21,7 +21,6 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--font-color);
-
   margin-bottom: 50px;
 }
 .team__card {
@@ -36,7 +35,6 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--font-color);
-
   margin-bottom: 10px;
 }
 .team__descript {
@@ -47,17 +45,18 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--descript-color);
-
   margin-bottom: 16px;
   margin-top: 0px;
 }
 .list_network {
   display: flex;
   justify-content: center;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
-.item_network:not(:last-child) {
-  margin-right: 10px;
-}
+
 .link_network {
   width: 44px;
   height: 44px;
@@ -67,13 +66,14 @@
   border-radius: 50%;
   background-color: var(--dark-background-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.link_network:hover .light_theme {
-  fill: var(--dark-background-color);
-}
-.link_network:hover {
-  background-color: var(--logo-color);
+  &:hover {
+    background-color: var(--logo-color);
+
+    & .light_theme {
+      fill: var(--dark-background-color);
+    }
+  }
 }
 .link_them {
   background-color: rgba(255, 255, 255, 0.1);
